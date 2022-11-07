@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x65rrors/errors.proto\x12\x06\x65rrors\"(\n\x05\x45rror\x12\x1f\n\x04type\x18\x01 \x01(\x0e\x32\x11.errors.ErrorType*\x16\n\tErrorType\x12\t\n\x05\x46\x61tal\x10\x00\x42\'Z%github.com/vpol/daily-proto-go/errorsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x65rrors/errors.proto\x12\x06\x65rrors\"7\n\x05\x45rror\x12\x1f\n\x04type\x18\x01 \x01(\x0e\x32\x11.errors.ErrorType\x12\r\n\x05value\x18\x02 \x01(\t*\x16\n\tErrorType\x12\t\n\x05\x46\x61tal\x10\x00\x42\'Z%github.com/vpol/daily-proto-go/errorsb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'errors.errors_pb2', globals())
@@ -21,8 +21,8 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   DESCRIPTOR._serialized_options = b'Z%github.com/vpol/daily-proto-go/errors'
-  _ERRORTYPE._serialized_start=73
-  _ERRORTYPE._serialized_end=95
+  _ERRORTYPE._serialized_start=88
+  _ERRORTYPE._serialized_end=110
   _ERROR._serialized_start=31
-  _ERROR._serialized_end=71
+  _ERROR._serialized_end=86
 # @@protoc_insertion_point(module_scope)
